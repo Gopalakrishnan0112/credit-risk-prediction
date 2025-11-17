@@ -1,0 +1,16 @@
+--- HIGH_RISK CASE (orig index 16555, pos 469) ---
+True label: 1, Predicted probability: 0.9781
+
+Top 5 risk-increasing features:
+  + PAY_0 = 3, SHAP=1.3855
+  + PAY_6 = 7, SHAP=0.4231
+  + LIMIT_BAL = 10000, SHAP=0.3298
+  + BILL_AMT4 = 2300, SHAP=0.2494
+  + PAY_2 = 2, SHAP=0.2242
+
+Top 5 risk-decreasing features:
+  - AGE = 30, SHAP=-0.0349
+  - BILL_AMT2 = 2300, SHAP=-0.0322
+  - MARRIAGE = 2, SHAP=-0.0318
+  - BILL_AMT6 = 2300, SHAP=-0.0317
+  - BILL_AMT5 = 2300, SHAP=-0.0176

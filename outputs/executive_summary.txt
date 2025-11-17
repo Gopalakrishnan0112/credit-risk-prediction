@@ -1,0 +1,26 @@
+Executive summary — Default of Credit Card Clients (auto-generated)
+Generated: 2025-11-17T09:22:18.395318
+
+Model: XGBoost classifier
+Train / Test sizes: 24000 / 6000
+
+Key metrics (test):
+- AUC: 0.7761
+- Precision: 0.4725
+- Recall: 0.6142
+- F1: 0.5341
+
+Top 5 global SHAP drivers:
+1. PAY_0 (mean|SHAP|=0.554533)
+2. LIMIT_BAL (mean|SHAP|=0.224891)
+3. BILL_AMT1 (mean|SHAP|=0.158520)
+4. PAY_AMT2 (mean|SHAP|=0.127405)
+5. PAY_AMT1 (mean|SHAP|=0.114219)
+
+Business recommendations:
+1) Use the top SHAP drivers in underwriting rules and manual review workflows.
+2) For surprising cases flagged by the model, require additional manual checks.
+3) Monitor feature drift and SHAP distribution monthly; retrain if performance drops.
+4) Consider threshold adjustment for operational balance between recall/precision.
+
+Artifacts saved in: /content/drive/MyDrive/project_outputs

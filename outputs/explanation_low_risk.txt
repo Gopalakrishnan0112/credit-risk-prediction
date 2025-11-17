@@ -1,0 +1,14 @@
+--- LOW_RISK CASE (orig index 1384, pos 5368) ---
+True label: 0, Predicted probability: 0.0224
+
+Top 5 risk-increasing features:
+  + BILL_AMT3 = 120927, SHAP=0.0890
+  + BILL_AMT6 = 33262, SHAP=0.0321
+  + PAY_5 = 0, SHAP=0.0021
+
+Top 5 risk-decreasing features:
+  - PAY_AMT2 = 120927, SHAP=-0.9460
+  - PAY_AMT1 = 83754, SHAP=-0.7369
+  - PAY_0 = -1, SHAP=-0.4241
+  - LIMIT_BAL = 300000, SHAP=-0.3575
+  - PAY_AMT3 = 0, SHAP=-0.2489

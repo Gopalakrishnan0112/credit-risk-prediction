@@ -1,0 +1,20 @@
+Model evaluation metrics (test set)
+===============================
+AUC: 0.7761
+Precision: 0.4725
+Recall: 0.6142
+F1: 0.5341
+
+Confusion matrix:
+[[3763  910]
+ [ 512  815]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.81      0.84      4673
+           1       0.47      0.61      0.53      1327
+
+    accuracy                           0.76      6000
+   macro avg       0.68      0.71      0.69      6000
+weighted avg       0.79      0.76      0.77      6000

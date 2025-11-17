@@ -1,0 +1,16 @@
+--- SURPRISING CASE (orig index 2157, pos 3) ---
+True label: 1, Predicted probability: 0.3750
+
+Top 5 risk-increasing features:
+  + PAY_AMT4 = 15000, SHAP=0.2981
+  + BILL_AMT2 = 303701, SHAP=0.2698
+  + BILL_AMT1 = 305823, SHAP=0.2617
+  + BILL_AMT6 = 230925, SHAP=0.2036
+  + BILL_AMT3 = 296384, SHAP=0.1717
+
+Top 5 risk-decreasing features:
+  - PAY_0 = 0, SHAP=-0.5658
+  - PAY_AMT6 = 23333, SHAP=-0.3971
+  - PAY_AMT2 = 10500, SHAP=-0.2692
+  - PAY_AMT3 = 10000, SHAP=-0.2063
+  - PAY_AMT1 = 15000, SHAP=-0.1087
